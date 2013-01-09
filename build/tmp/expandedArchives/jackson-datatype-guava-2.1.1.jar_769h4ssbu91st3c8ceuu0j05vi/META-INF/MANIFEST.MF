@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1352869369251
+Build-Jdk: 1.6.0_37
+Built-By: tsaloranta
+Bundle-Description: Add-on datatype-support module for Jackson (http://j
+ ackson.codehaus.org) that handlesGuava (http://code.google.com/p/guava-
+ libraries/) types (currently mostly just collection ones)
+Bundle-DocURL: http://fasterxml.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson-datatype-Guava
+Bundle-SymbolicName: com.fasterxml.jackson.datatype.jackson-datatype-gua
+ va
+Bundle-Vendor: fasterml.com
+Bundle-Version: 2.1.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fasterxml.jackson.datatype.guava;uses:="com.fasterxm
+ l.jackson.datatype.guava.deser,com.fasterxml.jackson.databind,com.googl
+ e.common.collect,com.fasterxml.jackson.databind.deser,com.google.common
+ .base,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.dat
+ abind.type,com.fasterxml.jackson.datatype.guava.ser,com.fasterxml.jacks
+ on.core,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.core.u
+ til";version="2.1.1",com.fasterxml.jackson.datatype.guava.deser;uses:="
+ com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml
+ .jackson.databind.deser.std,com.fasterxml.jackson.databind.deser,com.fa
+ sterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,c
+ om.google.common.collect,com.google.common.base";version="2.1.1",com.fa
+ sterxml.jackson.datatype.guava.ser;uses:="com.fasterxml.jackson.databin
+ d,com.fasterxml.jackson.databind.ser,com.google.common.base,com.fasterx
+ ml.jackson.core,com.fasterxml.jackson.databind.ser.std,com.google.commo
+ n.collect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson
+ .databind.type";version="2.1.1"
+Import-Package: com.fasterxml.jackson.core;version="[2.1,3)",com.fasterx
+ ml.jackson.core.util;version="[2.1,3)",com.fasterxml.jackson.databind;v
+ ersion="[2.1,3)",com.fasterxml.jackson.databind.deser;version="[2.1,3)"
+ ,com.fasterxml.jackson.databind.deser.std;version="[2.1,3)",com.fasterx
+ ml.jackson.databind.jsontype;version="[2.1,3)",com.fasterxml.jackson.da
+ tabind.ser;version="[2.1,3)",com.fasterxml.jackson.databind.ser.std;ver
+ sion="[2.1,3)",com.fasterxml.jackson.databind.type;version="[2.1,3)",co
+ m.google.common.base,com.google.common.collect
+Tool: Bnd-1.50.0
