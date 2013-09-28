@@ -5,33 +5,17 @@
   </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
-    <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-    </excludeFromCompile>
-    <resourceExtensions />
+    <resourceExtensions>
+      <entry name=".+\.(properties|xml|html|dtd|tld)" />
+      <entry name=".+\.(gif|png|jpeg|jpg)" />
+    </resourceExtensions>
     <wildcardResourcePatterns>
-      <entry name="?*.properties" />
-      <entry name="?*.xml" />
-      <entry name="?*.gif" />
-      <entry name="?*.png" />
-      <entry name="?*.jpeg" />
-      <entry name="?*.jpg" />
-      <entry name="?*.html" />
-      <entry name="?*.dtd" />
-      <entry name="?*.tld" />
-      <entry name="?*.ftl" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.java" />
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="DropWizardDemo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -45,12 +29,29 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
+  <component name="GradleUISettings">
+    <setting name="root" />
+  </component>
+  <component name="GradleUISettings2">
+    <setting name="root" />
+  </component>
+  <component name="IdProvider" IDEtalkID="11DA1DB66DD62DDA1ED602B7079FE97C" />
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
   </component>
   <component name="Palette2">
     <group name="Swing">
@@ -173,450 +174,61 @@
       </item>
     </group>
   </component>
-  <component name="ProjectDictionaryState">
-    <dictionary name="twer" />
-  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DropWizardDemo.iml" filepath="$PROJECT_DIR$/DropWizardDemo.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
-  <component name="libraryTable">
-    <library name="Maven: asm:asm:3.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/asm/asm/3.1/asm-3.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: ch.qos.logback:logback-classic:1.0.7">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: ch.qos.logback:logback-core:1.0.7">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.1.1/jackson-core-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.1.1/jackson-core-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.1.1/jackson-core-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.1.1/jackson-databind-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.1.1/jackson-databind-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.1.1/jackson-databind-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.1.1/jackson-dataformat-yaml-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.1.1/jackson-dataformat-yaml-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.1.1/jackson-dataformat-yaml-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.1.1/jackson-datatype-guava-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.1.1/jackson-datatype-guava-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.1.1/jackson-datatype-guava-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.1.1/jackson-datatype-joda-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.1.1/jackson-datatype-joda-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.1.1/jackson-datatype-joda-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.1.1/jackson-jaxrs-json-provider-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.1.1/jackson-jaxrs-json-provider-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.1.1/jackson-jaxrs-json-provider-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.1.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.1.1/jackson-module-jaxb-annotations-2.1.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.1.1/jackson-module-jaxb-annotations-2.1.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.1.1/jackson-module-jaxb-annotations-2.1.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.google.code.findbugs:jsr305:2.0.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.google.guava:guava:13.0.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/13.0.1/guava-13.0.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/13.0.1/guava-13.0.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/13.0.1/guava-13.0.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.sun.jersey:jersey-core:1.15">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.15/jersey-core-1.15.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.15/jersey-core-1.15-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.15/jersey-core-1.15-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.sun.jersey:jersey-server:1.15">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.15/jersey-server-1.15.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.15/jersey-server-1.15-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.15/jersey-server-1.15-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.sun.jersey:jersey-servlet:1.15">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-servlet/1.15/jersey-servlet-1.15.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-servlet/1.15/jersey-servlet-1.15-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-servlet/1.15/jersey-servlet-1.15-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yammer.dropwizard:dropwizard-core:0.6.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.1/dropwizard-core-0.6.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.1/dropwizard-core-0.6.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/dropwizard/dropwizard-core/0.6.1/dropwizard-core-0.6.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yammer.metrics:metrics-annotation:2.2.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-annotation/2.2.0/metrics-annotation-2.2.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-annotation/2.2.0/metrics-annotation-2.2.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-annotation/2.2.0/metrics-annotation-2.2.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yammer.metrics:metrics-core:2.2.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yammer.metrics:metrics-jersey:2.2.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jersey/2.2.0/metrics-jersey-2.2.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jersey/2.2.0/metrics-jersey-2.2.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jersey/2.2.0/metrics-jersey-2.2.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yammer.metrics:metrics-jetty:2.2.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jetty/2.2.0/metrics-jetty-2.2.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jetty/2.2.0/metrics-jetty-2.2.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-jetty/2.2.0/metrics-jetty-2.2.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yammer.metrics:metrics-logback:2.2.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-logback/2.2.0/metrics-logback-2.2.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-logback/2.2.0/metrics-logback-2.2.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-logback/2.2.0/metrics-logback-2.2.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.yammer.metrics:metrics-servlet:2.2.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-servlet/2.2.0/metrics-servlet-2.2.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-servlet/2.2.0/metrics-servlet-2.2.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/yammer/metrics/metrics-servlet/2.2.0/metrics-servlet-2.2.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: javax.validation:validation-api:1.0.0.GA">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: joda-time:joda-time:2.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.1/joda-time-2.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.1/joda-time-2.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.1/joda-time-2.1-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: net.sourceforge.argparse4j:argparse4j:0.2.2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/argparse4j/argparse4j/0.2.2/argparse4j-0.2.2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/argparse4j/argparse4j/0.2.2/argparse4j-0.2.2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/argparse4j/argparse4j/0.2.2/argparse4j-0.2.2-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty:jetty-continuation:8.1.8.v20121106">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-continuation/8.1.8.v20121106/jetty-continuation-8.1.8.v20121106.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-continuation/8.1.8.v20121106/jetty-continuation-8.1.8.v20121106-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-continuation/8.1.8.v20121106/jetty-continuation-8.1.8.v20121106-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty:jetty-http:8.1.8.v20121106">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/8.1.8.v20121106/jetty-http-8.1.8.v20121106.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/8.1.8.v20121106/jetty-http-8.1.8.v20121106-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-http/8.1.8.v20121106/jetty-http-8.1.8.v20121106-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty:jetty-io:8.1.8.v20121106">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/8.1.8.v20121106/jetty-io-8.1.8.v20121106.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/8.1.8.v20121106/jetty-io-8.1.8.v20121106-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/8.1.8.v20121106/jetty-io-8.1.8.v20121106-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty:jetty-security:8.1.8.v20121106">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-security/8.1.8.v20121106/jetty-security-8.1.8.v20121106.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-security/8.1.8.v20121106/jetty-security-8.1.8.v20121106-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-security/8.1.8.v20121106/jetty-security-8.1.8.v20121106-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty:jetty-server:8.1.8.v20121106">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.8.v20121106/jetty-server-8.1.8.v20121106.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.8.v20121106/jetty-server-8.1.8.v20121106-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/8.1.8.v20121106/jetty-server-8.1.8.v20121106-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty:jetty-servlet:8.1.8.v20121106">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.8.v20121106/jetty-servlet-8.1.8.v20121106.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.8.v20121106/jetty-servlet-8.1.8.v20121106-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-servlet/8.1.8.v20121106/jetty-servlet-8.1.8.v20121106-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.eclipse.jetty:jetty-util:8.1.8.v20121106">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.8.v20121106/jetty-util-8.1.8.v20121106.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.8.v20121106/jetty-util-8.1.8.v20121106-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/8.1.8.v20121106/jetty-util-8.1.8.v20121106-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.hibernate:hibernate-validator:4.3.0.Final">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.jboss.logging:jboss-logging:3.1.0.CR2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.slf4j:jul-to-slf4j:1.7.2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.2/jul-to-slf4j-1.7.2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.2/jul-to-slf4j-1.7.2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.2/jul-to-slf4j-1.7.2-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.2/log4j-over-slf4j-1.7.2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.2/log4j-over-slf4j-1.7.2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.2/log4j-over-slf4j-1.7.2-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: org.slf4j:slf4j-api:1.7.2">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2-sources.jar!/" />
-      </SOURCES>
-    </library>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+      <state key="Copyright.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+        </UIState>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl>
+              <option name="proportions">
+                <list>
+                  <option value="0.2" />
+                </list>
+              </option>
+            </SplitterProportionsDataImpl>
+          </splitter-proportions>
+          <last-edited>1.6</last-edited>
+        </UIState>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <UIState>
+          <splitter-proportions>
+            <SplitterProportionsDataImpl />
+          </splitter-proportions>
+          <settings />
+        </UIState>
+      </state>
+    </states>
   </component>
 </project>
 

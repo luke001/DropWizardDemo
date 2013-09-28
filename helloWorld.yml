@@ -1,2 +1,7 @@
 template: Hello, %s!
 defaultName: Stranger
+
+http:
+    rootPath: /api/*
+    port: 9090
+    adminPort: 9091
